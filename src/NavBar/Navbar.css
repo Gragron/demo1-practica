@@ -1,0 +1,31 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 1px solid #e3e9f2;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #e3e9f2
+}
+
+li a {
+    display: block;
+    color: #7a8692;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #e3e9f2;
+}
+
+ul li:first-child{
+    background-color: #7a90a5;
+    color: white;
+}
