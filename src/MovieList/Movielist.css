@@ -1,0 +1,11 @@
+.content{
+    height:100%;
+    overflow:auto;
+}
+
+.movielist{
+    width: 85%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}

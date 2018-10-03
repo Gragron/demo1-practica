@@ -1,0 +1,63 @@
+/* Fixed sidenav, full height */
+.sidebar {
+    position:fixed;
+    top: 47px;;
+    bottom: 0;
+    right:0;
+    width: 15%;
+    background-color: #1f3345;
+    /* z-index: -1; */
+    /* padding-top: 47px; */
+}
+
+
+.sidebarscroll {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: 100%;
+    color: white;
+    /* padding: 15px 0 15px 0; */
+}
+
+.nav{
+    padding-left: 0px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav ul {
+    background-color: #1f3345;
+    color: white;
+    height: auto;
+    list-style: none;
+    width: 100%;
+}
+
+.nav > li {
+    list-style: none;
+    width: 100%;
+    padding: 15px;
+}
+
+.nav > li a:hover {
+    background: #4d6276;
+    cursor: pointer;
+}
+
+.nav > li > a {
+  padding: 8px 20px;
+  line-height: 20px;
+}
+
+.nav .sub-menu {
+    list-style-type: none;
+    padding: 15px 0 15px 10px;
+    margin: 0;
+    background: #1a2229;
+    position: relative;
+}
+
+.nav .sub-menu > li{
+  padding: 10px 0 10px 15px;
+}

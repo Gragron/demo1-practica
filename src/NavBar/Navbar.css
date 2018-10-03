@@ -1,4 +1,11 @@
-ul {
+.navbar{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -7,12 +14,12 @@ ul {
     border-bottom: 1px solid #e3e9f2;
 }
 
-li {
+.navbar li {
     float: left;
     border-right: 1px solid #e3e9f2
 }
 
-li a {
+.navbar li a {
     display: block;
     color: #7a8692;
     text-align: center;
@@ -21,11 +28,16 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.navbar li a:hover {
     background-color: #e3e9f2;
+    color: #7a90a5;
 }
 
-ul li:first-child{
+.navbar ul li:first-child{
     background-color: #7a90a5;
+    color: white;
+}
+
+.navbar li:first-child a {
     color: white;
 }
