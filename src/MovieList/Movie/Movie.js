@@ -10,6 +10,24 @@ import Image from "./Image/image";
 import "./Movie.css"
 
 class Movie extends Component{
+
+    constructor(props){
+        super(props);
+        this.state = {
+            movies: []
+        }
+    }
+
+    handleClick (event, addPelicula) {
+
+        this.state.movies.push(addPelicula);      
+        this.setState(
+            this.state
+          )
+
+    }
+
+
     render(){
         return(
             
@@ -22,7 +40,7 @@ class Movie extends Component{
                     <TitleCategory genre={this.props.genre}></TitleCategory>
                     <div>
                         <div className="options"> <Detail></Detail>  </div>
-                        <div className="options"> <Favorite></Favorite> </div>
+                        <div className="options" onClick={(e) => this.handleClick(e,this.props.title)}> <Favorite></Favorite> </div>
                     </div>
                 </div>
             </div>
