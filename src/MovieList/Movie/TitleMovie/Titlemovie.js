@@ -1,5 +1,5 @@
 import React from "react";
 
-const TitleMovie = () =>  <h2> <b>Nombre película</b> </h2>
+const TitleMovie = (props) => <h3> <b> {props.title}  </b> </h3>
 
 export default TitleMovie;

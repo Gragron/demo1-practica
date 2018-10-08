@@ -1,5 +1,5 @@
 import React from "react";
 
-const Favorite = () =>  <h6> Agregar a favoritos </h6>
+const Favorite = () =>  <p> Agregar a favoritos </p>
 
 export default Favorite;

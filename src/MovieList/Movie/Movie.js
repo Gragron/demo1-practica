@@ -4,6 +4,7 @@ import TitleMovie from "./TitleMovie/Titlemovie";
 import TitleCategory from "./TitleCategory/Titlecategory";
 import Detail from "./Detail/Detail";
 import Favorite from "./Favorite/Favorite";
+import Image from "./Image/image";
 
 // css import
 import "./Movie.css"
@@ -14,13 +15,15 @@ class Movie extends Component{
             
             <div className="card">
                 <div className="imgcard">
-
+                    <Image img={this.props.img}></Image>
                 </div>
                 <div className="card-details">
-                    <TitleMovie></TitleMovie>
-                    <TitleCategory></TitleCategory>
-                    <Detail></Detail> 
-                    <Favorite></Favorite>
+                    <TitleMovie title={this.props.title}></TitleMovie>
+                    <TitleCategory genre={this.props.genre}></TitleCategory>
+                    <div>
+                        <div className="options"> <Detail></Detail>  </div>
+                        <div className="options"> <Favorite></Favorite> </div>
+                    </div>
                 </div>
             </div>
             

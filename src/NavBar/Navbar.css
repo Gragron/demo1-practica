@@ -11,12 +11,12 @@
     padding: 0;
     overflow: hidden;
     background-color: white;
-    border-bottom: 1px solid #e3e9f2;
+    border-bottom: 1px solid #1f3345;
 }
 
 .navbar li {
     float: left;
-    border-right: 1px solid #e3e9f2
+    border-right: 1px solid #1f3345
 }
 
 .navbar li a {
