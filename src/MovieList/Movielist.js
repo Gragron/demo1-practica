@@ -18,7 +18,6 @@ class Movielist extends Component {
     handleClickAddFavorites = (e, title) => {
         e.preventDefault();
         this.setState({ movielist: this.state.movielist.concat( title ) })
-        return (<Sidebar prueba = {this.state.movielist} />) 
     }
 
     render(){
@@ -44,7 +43,7 @@ class Movielist extends Component {
                     </ul>
                 </div>
 
-
+                 <Sidebar prueba= {this.state.movielist} > </Sidebar>
 
 
            </div>

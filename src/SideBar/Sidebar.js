@@ -10,7 +10,7 @@ class Sidebar extends Component{
                         <li> 
                             <a> Lista favoritos  </a> 
                             <ul className="sub-menu">
-                                <li>Tops</li>
+                                <li> { this.props.prueba }</li>
                                 <li>Bottoms</li>
                                 <li>Footwear</li>
                             </ul>
