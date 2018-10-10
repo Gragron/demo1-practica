@@ -7,6 +7,7 @@ h4, h2, h6 {
     flex: 0 1 calc(23% - 3em);
     margin: 15px;
     border-radius: 5px;
+    border: 1px solid #bbccda;
 }
 
 .card-details{

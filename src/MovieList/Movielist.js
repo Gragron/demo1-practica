@@ -13,7 +13,7 @@ class Movielist extends Component {
                 {/* {require('./responsive.jpg') */}
 
                 <div className="movielist">
-                    <Movie img="../../../Images/latin-lover.jpeg" title="Como ser un Latin Lover" genre="Comedia" ></Movie>
+                    <Movie img="images/deadpool.jpeg" title="Como ser un Latin Lover" genre="Comedia" ></Movie>
                     <Movie img="../../../Images/rampage.jpeg" title="Rampage" genre="Acción, Aventura" ></Movie>
                     <Movie img="../../../Images/tom-raider.jpeg" title="Tom Raider" genre="Acción, Aventura" ></Movie>
                     <Movie img="../../../Images/next-gen.jpeg" title="Next Gen" genre="Animacion, Acción, Aventura" ></Movie>
